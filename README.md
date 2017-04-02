@@ -111,7 +111,11 @@ Once all the UCS Manager Domains have been added, the application is now ready t
 ```
 
 ## Building to a Binary
-One of the great advantages of GO is the ability to compile the code and all dependencies into a single binary file.  This is enhanced by building for multiple platforms.  I have included a short script to compile to most of the common formats and place them in the ./bin folder.  To run this;
+One of the great advantages of GO is the ability to compile the code and all dependencies into a single binary file.  This is enhanced by building for multiple platforms.  I have included a short script to compile to most of the common formats and place them in the ./bin folder.  You may need to add the execute ability onto the script, as this maybe removed during the download process, on a Mac, you can complete this by doing;
+```fish
+> chmod +x buildall.sh
+```
+To build the application run this;
 ```fish
 > ./buildall.sh
 ```
