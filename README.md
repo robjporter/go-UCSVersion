@@ -98,8 +98,14 @@ To show the current configuration details for a UCS System;
 > go run main.go show ucs --ip=<IP>
 ```
 
+### Show All discoverable systems
+To show all the currently entered system information;
+```go
+> go run main.go show all
+```
+
 ## Running the application
-Once the UCS and UCS Performance Manager systems have been added, the application is now ready to run.
+Once all the UCS Manager Domains have been added, the application is now ready to run.
 ```go
 > go run main.go run
 ```
