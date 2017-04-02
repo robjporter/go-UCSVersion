@@ -134,10 +134,10 @@ The output from running the application will look similar to the following;
 |-------------------------------------------------------------------|
 ```
 
-**It is important to understand, this is not performing an inventory of your UCS Domain and determining if the version is supported on all the hardware within the UCS Domain.  Therefore, some manual validation needs to be completed, before running any update.**
+**It is important to understand, this is not performing an inventory of your UCS Domain or determining if the version is supported on all the hardware within the UCS Domain.  Therefore, some manual validation needs to be completed, before running any update.**
 
 #### The output is showing 4 columns;
-Column 1 - UCS Domain - These are the URL's or IP's that have been entered for each UCS Domain.
-Column 2 - Current Version - These are the current UCS Manager versions that are running.
-Column 3 - Is Deferred - This column shows whether the executing version has been listed as a deferred release by Cisco.  If true, this would be a strong recommendation for an upgrade.
-Column 4 - Suggested Version - This column looks at the currently installed version and recommends the suggested version, it does not automatically suggest the latest or latest suggested release, as there maybe some very valid reasons that the current version is being run.  It tries to match the current version as much as possible, which should minimise upgrade impact.
+*Column 1 - UCS Domain - These are the URL's or IP's that have been entered for each UCS Domain.
+*Column 2 - Current Version - These are the current UCS Manager versions that are running.
+*Column 3 - Is Deferred - This column shows whether the executing version has been listed as a deferred release by Cisco.  If true, this would be a strong recommendation for an upgrade.
+*Column 4 - Suggested Version - This column looks at the currently installed version and recommends the suggested version, it does not automatically suggest the latest or latest suggested release, as there maybe some very valid reasons that the current version is being run.  It tries to match the current version as much as possible, which should minimise upgrade impact.
