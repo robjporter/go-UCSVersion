@@ -122,6 +122,7 @@ To build the application run this;
 
 ## Interpreting the output
 The output from running the application will look similar to the following;
+```fish
 |-------------------------------------------------------------------|
 | UCS Domain    | Current Version | Is Deferred | Suggested Version |
 |-------------------------------------------------------------------|
@@ -131,6 +132,7 @@ The output from running the application will look similar to the following;
 |-------------------------------------------------------------------|
 | 10.52.208.120 | 2.2(6g)         | false       | 2.2(8f)           |
 |-------------------------------------------------------------------|
+```
 
 It is important to understand, this is not performing an inventory of your UCS Domain and determining if the version is supported on all the hardware within the UCS Domain.  Therefore, some manual validation needs to be completed, before completing the update.
 
