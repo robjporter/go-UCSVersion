@@ -48,7 +48,7 @@ You should see as output, something similar to;
 If you reached this point, everything is working and you are ready to run the included code!
 
 ## Getting the code
-There are a couple of ways you can get the code, depending on how comfortable you are with the command line and development envrionments;
+There are a couple of ways you can get the code, depending on how comfortable you are with the command line and development environments;
 
 You could download the zip file, [here](https://github.com/robjporter/go-UCSVersion/archive/master.zip).
 
@@ -57,13 +57,13 @@ You could use the command line git command to clone the repository to your local
 2. Enter, git clone https://github.com/robjporter/go-UCSVersion.git
 3. You will see output similar to the following while it is copied.
 ```fish
-Cloning into `go-UCSPMMetering`...
+Cloning into `go-UCSVersion`...
 remote: Counting objects: 10, done.
 remote: Compressing objects 100% (8/8), done.
 remove: Total 10 (delta 1), reused 10 (delta 1)
 unpacking objects: 100% (10/10), done.
 ```
-4. Change into the new directory, cd go-UCSPMMetering.
+4. Change into the new directory, cd go-UCSVersion.
 5. Move onto setting up the application.
 
 ## Application dependencies
@@ -136,7 +136,7 @@ The output from running the application will look similar to the following;
 
 **It is important to understand, this is not performing an inventory of your UCS Domain or determining if the version is supported on all the hardware within the UCS Domain.  Therefore, some manual validation needs to be completed, before running any update.**
 
-#### The output is showing 4 columns;
+#### The output is shown in 4 columns;
 * **Column 1 - UCS Domain** - These are the URL's or IP's that have been entered for each UCS Domain.
 * **Column 2 - Current Version** - These are the current UCS Manager versions that are running.
 * **Column 3 - Is Deferred** - This column shows whether the executing version has been listed as a deferred release by Cisco.  If true, this would be a strong recommendation for an upgrade.
