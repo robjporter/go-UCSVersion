@@ -1,5 +1,10 @@
 # go-UCSVersion
-TBD
+How often do you check your UCS Domains for the software they are running? When was the last time you checked if you are running a deferred release? Do you know what the suggested software releases are?
+These are some of the common questions I ask myself, then I ask, how do I go about checking the answers to these?
+
+This is where this application will help.  It is a simple command line application which, once configured will connect to all of your UCS Domains, gain the current running UCSM version, then query http://www.cisco.com for the latest, suggested, deferred and all releases available.
+
+It will then do some simple comparisons between these different versions and produce some output to help you in your upgrade decisions.
 
 ## Setting up your GO environment
 Depending on your particular environment, there are a number of ways to setup and install GO.  This repo was developed on a MAC and was installed using Brew.  For instructions on installing HomeBrew, please check [here](https://brew.sh/); and then entering;
